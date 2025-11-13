@@ -22,7 +22,7 @@
         "useAbsoluteUriForEndpoint": false
       },
       "system": {
-        "webhookAuthorizationLevel": "Anonymous"
+        "webhookAuthorizationLevel": "System"
       }
     }    
   }
