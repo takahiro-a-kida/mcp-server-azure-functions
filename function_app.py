@@ -8,8 +8,8 @@ app = func.FunctionApp()
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-handler = logging.StreamHandler(sys.stdout)
-logger.addHandler(handler)
+# handler = logging.StreamHandler(sys.stdout)
+# logger.addHandler(handler)
 
 
 def _extract_arguments(context: str, tool_name: str) -> dict:
